@@ -1,0 +1,76 @@
+TD348 000:198.949   SEGGER J-Link V7.22b Log File
+TD348 000:199.609   DLL Compiled: Jun 17 2021 17:22:49
+TD348 000:199.631   Logging started @ 2024-04-11 11:47
+TD348 000:199.653 - 199.663ms
+TD348 000:199.843 JLINK_SetWarnOutHandler(...)
+TD348 000:200.012 - 0.181ms
+TD348 000:200.039 JLINK_OpenEx(...)
+TD348 000:207.322   Looking for J-Link GUI Server exe at: D:\APP\PROFESS\Keil\ARM\Segger\JLinkGUIServer.exe
+TD348 000:207.431   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+TD348 000:508.385   Failed to connect to J-Link GUI Server.
+TD348 002:327.315   TELNET listener socket opened on port 19021
+TD348 002:327.479   WEBSRV Starting webserver
+TD348 002:327.686   WEBSRV Webserver running on local port 19080
+TD348 002:327.823 - 2127.787ms returns "O.K."
+TD348 002:327.845 JLINK_GetEmuCaps()
+TD348 002:327.853 - 0.010ms returns 0x98E61B83
+TD348 002:327.862 JLINK_TIF_GetAvailable(...)
+TD348 002:327.868 - 0.008ms
+TD348 002:327.876 JLINK_SetErrorOutHandler(...)
+TD348 002:327.881 - 0.008ms
+TD348 002:328.062 JLINK_ExecCommand("ProjectFile = "E:\Project can\Game\2024_BluebridgeCup\code\provincial_game_2021\game_3\MDK-ARM\JLinkSettings.ini"", ...). 
+TD348 002:346.643 - 18.590ms returns 0x00
+TD348 002:346.671 JLINK_ExecCommand("Device = STM32G431RBTx", ...). 
+TD348 006:292.036 - 0.340ms returns 0xFFFFFFFF
+TD348 006:292.077 JLINK_GetHardwareVersion()
+TD348 006:293.732 - 1.665ms returns 10000
+TD348 006:293.752 JLINK_GetDLLVersion()
+TD348 006:293.757 - 0.008ms returns 72202
+TD348 006:293.764 JLINK_GetOEMString(...)
+TD348 006:293.774 JLINK_GetFirmwareString(...)
+TD348 006:293.782 - 0.010ms
+TD348 006:296.758 JLINK_GetDLLVersion()
+TD348 006:296.772 - 0.017ms returns 72202
+TD348 006:296.780 JLINK_GetCompileDateTime()
+TD348 006:296.785 - 0.008ms
+TD348 006:296.796 JLINK_GetFirmwareString(...)
+TD348 006:296.801 - 0.008ms
+TD348 006:296.809 JLINK_GetHardwareVersion()
+TD348 006:296.814 - 0.008ms returns 10000
+TD348 006:296.822 JLINK_GetSN()
+TD348 006:296.828 - 0.008ms returns 1041174200
+TD348 006:296.835 JLINK_GetOEMString(...)
+TD348 007:228.476 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+TD348 007:228.510   
+  ***** Error: 
+TD348 007:228.519   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+TD348 007:228.527 - 0.053ms returns 0x01
+TD348 007:228.541 JLINK_HasError()
+TD348 007:228.552 JLINK_SetSpeed(5000)
+TD348 007:228.559 - 0.010ms
+TD348 007:228.836 JLINK_HasError()
+TD348 007:228.847 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+TD348 007:228.853 - 0.008ms returns JLINKARM_RESET_TYPE_NORMAL
+TD348 007:228.860 JLINK_Reset()
+TD348 007:238.718   
+  ***** Error: 
+TD348 007:238.738   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+TD348 007:238.745 - 9.887ms
+TD348 007:238.762 JLINK_GetId()
+TD348 007:240.716   
+  ***** Error: 
+TD348 007:240.731   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+TD348 007:240.738 - 1.978ms returns 0x00000000
+TD348 007:240.753 JLINK_GetId()
+TD348 007:242.715   
+  ***** Error: 
+TD348 007:242.731   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+TD348 007:242.739 - 1.988ms returns 0x00000000
+TD348 007:251.072 JLINK_GetFirmwareString(...)
+TD348 007:251.130 - 0.063ms
+TD348 007:287.319 JLINK_Close()
+TD348 007:329.627 - 42.361ms
+TD348 007:329.688   
+TD348 007:329.696   Closed
