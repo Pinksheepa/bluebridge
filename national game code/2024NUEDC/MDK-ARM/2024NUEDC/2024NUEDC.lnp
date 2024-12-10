@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"2024nuedc\startup_stm32f103xe.o"
+"2024nuedc\main.o"
+"2024nuedc\gpio.o"
+"2024nuedc\tim.o"
+"2024nuedc\stm32f1xx_it.o"
+"2024nuedc\stm32f1xx_hal_msp.o"
+"2024nuedc\stm32f1xx_hal_gpio_ex.o"
+"2024nuedc\stm32f1xx_hal_tim.o"
+"2024nuedc\stm32f1xx_hal_tim_ex.o"
+"2024nuedc\stm32f1xx_hal.o"
+"2024nuedc\stm32f1xx_hal_rcc.o"
+"2024nuedc\stm32f1xx_hal_rcc_ex.o"
+"2024nuedc\stm32f1xx_hal_gpio.o"
+"2024nuedc\stm32f1xx_hal_dma.o"
+"2024nuedc\stm32f1xx_hal_cortex.o"
+"2024nuedc\stm32f1xx_hal_pwr.o"
+"2024nuedc\stm32f1xx_hal_flash.o"
+"2024nuedc\stm32f1xx_hal_flash_ex.o"
+"2024nuedc\stm32f1xx_hal_exti.o"
+"2024nuedc\system_stm32f1xx.o"
+"2024nuedc\ad9854.o"
+"2024nuedc\my_main.o"
+--strict --scatter "2024NUEDC\2024NUEDC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "2024NUEDC.map" -o 2024NUEDC\2024NUEDC.axf

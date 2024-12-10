@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=YA39H-W4ZG4-300NC-733IP-RM73C-XL9JM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\APP\PROFESS\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\Project can\Game\2024_BluebridgeCup\national game code\2024NUEDC\MDK-ARM\2024NUEDC.uvprojx
+Project File Date:  07/30/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\APP\PROFESS\Keil\ARM\ARMCC\Bin'
+Rebuild target '2024NUEDC'
+assembling startup_stm32f103xe.s...
+compiling tim.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling main.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_tim.c...
+compiling AD9854.c...
+bsp\AD9854.c(163): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_WR      = 0;
+bsp\AD9854.c(163): error:  #137: expression must be a modifiable lvalue
+  	AD9854_WR      = 0;
+bsp\AD9854.c(164): error:  #137: expression must be a modifiable lvalue
+  	AD9854_WR      = 1;
+bsp\AD9854.c(248): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_WR=1;//将读、写控制端口设为无效
+bsp\AD9854.c(248): error:  #137: expression must be a modifiable lvalue
+  	AD9854_WR=1;//将读、写控制端口设为无效
+bsp\AD9854.c(249): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RD=1;
+bsp\AD9854.c(250): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=0;
+bsp\AD9854.c(251): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RST=1;                 //复位AD9854
+bsp\AD9854.c(252): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RST=0;
+bsp\AD9854.c(260): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;               //更新AD9854输出
+bsp\AD9854.c(261): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=0;
+bsp\AD9854.c(292): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_UDCLK=1;                    //更新AD9854输出
+bsp\AD9854.c(292): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;                    //更新AD9854输出
+bsp\AD9854.c(293): error:  #137: expression must be a modifiable lvalue
+    AD9854_UDCLK=0;
+bsp\AD9854.c(324): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_UDCLK=1;                    //更新AD9854输出
+bsp\AD9854.c(324): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;                    //更新AD9854输出
+bsp\AD9854.c(325): error:  #137: expression must be a modifiable lvalue
+    AD9854_UDCLK=0;
+bsp\AD9854.c(338): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_WR=1;                        //将读、写控制端口设为无效
+bsp\AD9854.c(338): error:  #137: expression must be a modifiable lvalue
+  	AD9854_WR=1;                        //将读、写控制端口设为无效
+bsp\AD9854.c(339): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RD=1;
+bsp\AD9854.c(340): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=0;
+bsp\AD9854.c(341): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RST=1;                        //复位AD9854
+bsp\AD9854.c(342): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RST=0;	
+bsp\AD9854.c(350): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;                  //更新AD9854输出
+bsp\AD9854.c(351): error:  #137: expression must be a modifiable lvalue
+    AD9854_UDCLK=0;
+bsp\AD9854.c(392): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_UDCLK=1;                    //更新AD9854输出
+bsp\AD9854.c(392): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;                    //更新AD9854输出
+bsp\AD9854.c(393): error:  #137: expression must be a modifiable lvalue
+    AD9854_UDCLK=0;		
+bsp\AD9854.c(416): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_WR=1;                      //将读、写控制端口设为无效
+bsp\AD9854.c(416): error:  #137: expression must be a modifiable lvalue
+  	AD9854_WR=1;                      //将读、写控制端口设为无效
+bsp\AD9854.c(417): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RD=1;
+bsp\AD9854.c(418): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=0;
+bsp\AD9854.c(419): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RST=1;                     //复位AD9854
+bsp\AD9854.c(420): error:  #137: expression must be a modifiable lvalue
+  	AD9854_RST=0;
+bsp\AD9854.c(431): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;                   //更新AD9854输出
+bsp\AD9854.c(432): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=0;
+bsp\AD9854.c(488): warning:  #223-D: function "PAout" declared implicitly
+  	AD9854_UDCLK=1;                                //更新AD9854输出
+bsp\AD9854.c(488): error:  #137: expression must be a modifiable lvalue
+  	AD9854_UDCLK=1;                                //更新AD9854输出
+bsp\AD9854.c: 8 warnings, 30 errors
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling system_stm32f1xx.c...
+compiling my_main.c...
+"2024NUEDC\2024NUEDC.axf" - 30 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_2024NUEDC
+  D:\APP\PROFESS\Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\APP\PROFESS\Keil\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
